@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Parallax Tutorial - Lesson 1</title>
+</head>
+<body>
+  <!-- BEGIN header -->
+  <header>
+    <img id="cloud1" class="layer cloud small" data-parallax="0.7" src="img/cloud.svg"/>
+    <img id="cloud2" class="layer cloud" data-parallax="0.3" src="img/cloud.svg"/>
+    <img id="cloud3" class="layer cloud small" data-parallax="0.4" src="img/cloud.svg"/>
+    <img id="layer4" class="layer" data-parallax="1" src="img/layer-4.svg"/>
+    <img id="layer3" class="layer" data-parallax="0.7" src="img/layer-3.svg"/>
+    <img id="layer2" class="layer" data-parallax="0.5" src="img/layer-2.svg"/>
+    <img id="logo" class="layer" data-parallax="-1.6" width="200" src="img/logo.svg"/>
+    <img id="fg" src="img/layer-1.svg"/>
+  </header>
+  <!-- END header -->
+
+  <section></section>
+
+  <section></section>
+
+  <section></section>
+
+  <script src="js/scripts.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      var layerParallax = new LayerParallax({
+        elements: document.getElementsByClassName('layer')
+      });
+    })();
+  </script>
+</body>
+</html>
