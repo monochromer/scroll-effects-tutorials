@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Parallax Tutorial - Lesson 3</title>
+</head>
+<body>
+
+  <section>
+  </section>
+
+  <section>
+    <canvas id="canvas" width="460" height="460"></canvas>
+  </section>
+
+  <section>
+  </section>
+
+  <script src="js/scripts.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      var canvasParallax = new CanvasParallax({
+        element: document.getElementById('canvas'),
+        layers: [
+          { url: 'img/2-layer1.png', offset: -0.2, x: 40,  y: 70  },
+          { url: 'img/2-layer2.png', offset: -0.3, x: 100, y: 100 },
+          { url: 'img/2-layer3.png', offset: -0.4, x: 130, y: 140 },
+          { url: 'img/2-light.png',  offset: 1.25,    x: 150, y: 140 },
+          { url: 'img/2-mask.png',   offset: 0,    x: 0,   y: 40  }
+        ]
+      });
+    })();
+  </script>
+</body>
+</html>
