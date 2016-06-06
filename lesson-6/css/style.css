@@ -1,0 +1,51 @@
+body {
+  margin:0;
+  overflow-x: hidden;
+  background: #111628;
+}
+
+section {
+  position: relative;
+  min-height: 500px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  width: 100px;
+  height: 100px;
+}
+
+[data-inview=""] {
+  background: white;
+}
+
+[data-inview="3"] {
+  background: green;
+}
+
+[data-inview="2"] {
+  background: yellow;
+}
+
+[data-inview="1"] {
+  background: orange;
+}
+
+[data-inview="0"] {
+  background: red;
+}
+
+#triggerStatus {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: 2em;
+  z-index: 100;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
