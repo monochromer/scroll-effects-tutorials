@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Parallax Tutorial - Lesson 4</title>
+</head>
+<body>
+  <section></section>
+
+  <section id="section3">
+    <img class="layer layer2" src="img/3-bg.svg" alt="">
+    <img class="abs" id="light" src="img/2-light.png" alt="">
+    <img class="layer layer2" src="img/3-mask.svg" alt="">
+    <svg class="layer layer2" id="scrollPath"
+        version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 1280 1435" style="enable-background:new 0 0 1280 1435;" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
+      <rect id="scrollBg" x="0" y="0" width="1280" height="1435" fill="rgba(0, 0, 0, 0.5)"/>
+      <polyline id="scrollLine" points="864.8,113.9 660.8,450 459.8,402 345,652 693,908 999,1096 " fill="none" stroke="#5e0000" stroke-miterlimit="10" stroke-width="10"/>
+    </svg>
+  </section>
+
+  <section></section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      var scrollPathFinder = new ScrollPathFinder();
+    })();
+  </script>
+</body>
+</html>
