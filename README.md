@@ -7,3 +7,5 @@
 * Уроки 2-6. Основаны на серии видео CJ Gammon - ["Diving In: Parallax"](https://www.youtube.com/playlist?list=PL08jItIqOb2r4k_v0WwIjwWptv5BTsBK1)
 
 * Урок 7. Демонстрация от Abobe для CSS Shapes. [Читать статью](http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelling/)
+
+* Урок 8. Демонстрация использования библиотеки ScrollMagic.
