@@ -9,3 +9,5 @@
 * Урок 7. Демонстрация от Abobe для CSS Shapes. [Читать статью](http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelling/)
 
 * Урок 8. Демонстрация использования библиотеки ScrollMagic.
+
+* Урок 9. Демонстрация анимации обводки SVG при прокрутке.
